@@ -1,2 +1,6 @@
 # leetcode-solutions-by-golang
-LeetCode algorithms solutions by golang.
+开新坑啦...
+
+用Go语言实现LeetCode的算法题。
+
+正在施工中...
