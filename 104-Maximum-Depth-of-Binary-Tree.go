@@ -12,7 +12,6 @@ func maxDepth(root *TreeNode) int {
     if root == nil {
         return 0
     }
-    // 我又忍不住吐槽Go的内置类型之间的转换，太坑爹，看下面这行神奇的代码，Max函数参数必须是float64类型
     return int(float64(math.Max(float64(maxDepth(root.Left)), float64(maxDepth(root.Right))))) + 1
 }
 
